@@ -36,6 +36,8 @@ int main()
     vector<int>v3=v2;//complexity is 0(n), as one by one is copied.
     v3.push_back(2);
     printVec(v3);
+    vector<int>v4(4,3);
+    printVec(v4);
     return 0;
 
 }
