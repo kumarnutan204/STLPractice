@@ -30,6 +30,7 @@ int main()
     v2.push_back(6);
     v2.push_back(9);
     printVec(v2);
+    printVec(v2);
     v2.pop_back();
     printVec(v2); //pushback and popback are both of complexity 1.
     //we can directly copy vectors.

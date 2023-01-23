@@ -14,5 +14,6 @@ int main()
 {
     vector<pair<int,int>> v = {{1,2},{2,3},{3,4}};
     printVec(v);
+    
     return 0;
 }
