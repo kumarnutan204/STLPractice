@@ -31,7 +31,7 @@ int main()
         m[s]=m[s]+1;
     }
     for(auto pr : m){
-        cout<<pr.first<<" "<<pr.second<< endl;
+        cout<<pr.first<<" "<< pr.second << endl;
     }
     return 0;
 
