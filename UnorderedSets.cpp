@@ -15,6 +15,8 @@ int main()
     s.insert("abc"); //Complexity= O(1)
     s.insert("zsdf");
     s.insert("bcd");
+    s.insert("xyz");
+    s.insert("lmn");
     auto it = s.find("abc");//returns a iterator // O(1)
     // if(it != s.end()){
     //     cout<<(*it);
